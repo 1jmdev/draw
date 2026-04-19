@@ -1,0 +1,13 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "draw",
+    "compatibility_date": "2026-03-04",
+    "assets": {
+        "not_found_handling": "single-page-application",
+        "directory": "dist",
+        "html_handling": "auto-trailing-slash"
+    },
+    "observability": {
+        "enabled": false
+    }
+}
